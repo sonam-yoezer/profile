@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
+    <div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand fw-bold" routerLink="/">
+        <i class="bi bi-code-slash me-2"></i>
+        Sonam Jigme Yoezer
+      </a>
+  
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+              <i class="bi bi-house-door me-1"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about" routerLinkActive="active">
+              <i class="bi bi-person me-1"></i> About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/skill" routerLinkActive="active">
+              <i class="bi bi-gear me-1"></i> Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/project" routerLinkActive="active">
+              <i class="bi bi-folder me-1"></i> Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active">
+              <i class="bi bi-envelope me-1"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+</nav>

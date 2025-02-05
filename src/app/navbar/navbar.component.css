@@ -1,0 +1,58 @@
+/* Navbar link hover effect */
+.navbar-nav .nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  .navbar-nav .nav-link:hover::after,
+  .navbar-nav .nav-link.active::after {
+    width: 80%;
+  }
+  
+  /* Active link styling */
+  .navbar-nav .nav-link.active {
+    color: #fff !important;
+    font-weight: 500;
+  }
+  
+  /* Brand hover effect */
+  .navbar-brand {
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Mobile menu styling */
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      padding: 1rem 0;
+    }
+    
+    .navbar-nav .nav-link {
+      padding: 0.5rem 0;
+    }
+    
+    .navbar-nav .nav-link::after {
+      display: none;
+    }
+
+  }

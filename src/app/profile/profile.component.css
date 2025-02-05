@@ -1,0 +1,36 @@
+.social-link {
+    color: #0d6efd; /* Bootstrap primary color */
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .social-link:hover {
+    color: #0b5ed7; /* Darker shade */
+    background-color: rgba(13, 110, 253, 0.1); /* Light primary color background */
+    transform: translateY(-3px);
+  }
+  
+  .social-link i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+  }
+  
+  /* Optional: Add different hover colors for each social platform */
+  .social-link .bi-linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .social-link .bi-github:hover {
+    color: #333;
+  }
+  
+  .social-link .bi-envelope:hover {
+    color: #ea4335;
+  }
+  
