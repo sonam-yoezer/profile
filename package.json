@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^17.0.0",
+    "@angular/animations": "^17.3.12",
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
@@ -24,6 +24,8 @@
     "@emailjs/browser": "^4.4.1",
     "@ng-bootstrap/ng-bootstrap": "^16.0.0",
     "@popperjs/core": "^2.11.8",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "express": "^4.18.2",
