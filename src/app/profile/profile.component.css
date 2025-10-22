@@ -1,36 +1,105 @@
 .social-link {
-    color: #0d6efd; /* Bootstrap primary color */
-    font-size: 2rem;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 50%;
-  }
-  
-  .social-link:hover {
-    color: #0b5ed7; /* Darker shade */
-    background-color: rgba(13, 110, 253, 0.1); /* Light primary color background */
-    transform: translateY(-3px);
-  }
-  
-  .social-link i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1em;
-    height: 1em;
-  }
-  
-  /* Optional: Add different hover colors for each social platform */
-  .social-link .bi-linkedin:hover {
-    color: #0077b5;
-  }
-  
-  .social-link .bi-github:hover {
-    color: #333;
-  }
-  
-  .social-link .bi-envelope:hover {
-    color: #ea4335;
-  }
-  
+  color: #0d6efd;
+  /* Bootstrap primary color */
+  font-size: 2rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.social-link:hover {
+  color: #0b5ed7;
+  /* Darker shade */
+  background-color: rgba(13, 110, 253, 0.1);
+  /* Light primary color background */
+  transform: translateY(-3px);
+}
+
+.social-link i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+/* Optional: Add different hover colors for each social platform */
+.social-link .bi-linkedin:hover {
+  color: #0077b5;
+}
+
+.social-link .bi-github:hover {
+  color: #333;
+}
+
+.social-link .bi-envelope:hover {
+  color: #ea4335;
+}
+
+
+:root {
+  --primary-color: #4361ee;
+  --secondary-color: #3f37c9;
+  --accent-color: #4895ef;
+  --light-color: #f8f9fa;
+  --dark-color: #212529;
+  --success-color: #4cc9f0;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --hover-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f9fafb;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+  background-size: cover;
+  background-position: bottom;
+  pointer-events: none;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Make the whole page scroll smoothly */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
