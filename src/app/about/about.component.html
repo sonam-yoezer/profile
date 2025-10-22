@@ -2,48 +2,56 @@
   <div class="container">
     <!-- Personal Info Section -->
     <div class="row mb-5">
-      <div class="col-lg-6">
-        <h2 class="display-6 mb-4">About Me</h2>
-        <p class="lead mb-4">I am a passionate software developer with expertise in full-stack development, dedicated to
-          creating efficient and scalable solutions that make a difference.</p>
-        <p class="mb-4">With a strong foundation in both frontend and backend technologies, I enjoy tackling complex
-          problems and turning innovative ideas into reality. My approach combines technical expertise with creative
-          problem-solving to deliver high-quality software solutions.</p>
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text mb-4">I am a <span class="highlight">passionate software developer</span> with expertise in
+          full-stack development, dedicated to creating efficient and scalable solutions that make a difference.</p>
+        <p class="about-text mb-5">With a strong foundation in both frontend and backend technologies, I enjoy tackling
+          complex problems and turning innovative ideas into reality. My approach combines technical expertise with
+          creative problem-solving to deliver high-quality software solutions.</p>
 
         <!-- Contact Information -->
-        <div class="row g-4 mb-4">
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-envelope-fill text-primary fs-3 me-3"></i>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="contact-info-item d-flex align-items-center">
+              <div class="contact-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
               <div>
-                <h6 class="mb-1">Email</h6>
+                <h6 class="mb-1 fw-bold">Email</h6>
                 <p class="mb-0">forbusinesssjy999&#64;gmail.com</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
+          <div class="col-md-6">
+            <div class="contact-info-item d-flex align-items-center">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
               <div>
-                <h6 class="mb-1">Location</h6>
+                <h6 class="mb-1 fw-bold">Location</h6>
                 <p class="mb-0">Thimphu, Bhutan</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-phone-fill text-primary fs-3 me-3"></i>
+          <div class="col-md-6">
+            <div class="contact-info-item d-flex align-items-center">
+              <div class="contact-icon">
+                <i class="bi bi-phone-fill"></i>
+              </div>
               <div>
-                <h6 class="mb-1">Phone</h6>
+                <h6 class="mb-1 fw-bold">Phone</h6>
                 <p class="mb-0">+975 17305503</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-translate text-primary fs-3 me-3"></i>
+          <div class="col-md-6">
+            <div class="contact-info-item d-flex align-items-center">
+              <div class="contact-icon">
+                <i class="bi bi-translate"></i>
+              </div>
               <div>
-                <h6 class="mb-1">Languages</h6>
+                <h6 class="mb-1 fw-bold">Languages</h6>
                 <p class="mb-0">English, Dzongkha</p>
               </div>
             </div>
@@ -51,145 +59,251 @@
         </div>
       </div>
 
-      <!-- Expertise Section -->
       <div class="col-lg-6">
-        <h3 class="h4 mb-4">My Expertise</h3>
-        <div class="mb-4">
-          <div class="d-flex justify-content-between mb-2">
+        <h3 class="section-title mb-4">My Expertise</h3>
+
+        <!-- Skill Item Template -->
+        <div class="skill-item mb-4">
+          <div class="d-flex justify-content-between align-items-center mb-1">
             <span>Frontend Development</span>
             <span>70%</span>
           </div>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-              aria-valuemax="100"></div>
+          <div class="progress skill-progress" style="height: 20px; background: #e9ecef; border-radius: 12px;">
+            <div class="progress-bar" role="progressbar"
+              style="width: 70%; background: linear-gradient(90deg, #6a11cb, #2575fc);" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-        <div class="mb-4">
-          <div class="d-flex justify-content-between mb-2">
+
+        <div class="skill-item mb-4">
+          <div class="d-flex justify-content-between align-items-center mb-1">
             <span>Backend Development</span>
             <span>85%</span>
           </div>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-              aria-valuemax="100"></div>
+          <div class="progress skill-progress" style="height: 20px; background: #e9ecef; border-radius: 12px;">
+            <div class="progress-bar" role="progressbar"
+              style="width: 85%; background: linear-gradient(90deg, #ff512f, #dd2476);" aria-valuenow="85"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+
+          <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span>Database Management</span>
+              <span>75%</span>
+            </div>
+            <div class="progress skill-progress" style="height: 20px; background: #e9ecef; border-radius: 12px;">
+              <div class="progress-bar" role="progressbar"
+                style="width: 75%; background: linear-gradient(90deg, #11998e, #38ef7d);" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <span>DevOps & Deployment</span>
+              <span>50%</span>
+            </div>
+            <div class="progress skill-progress" style="height: 20px; background: #e9ecef; border-radius: 12px;">
+              <div class="progress-bar" role="progressbar"
+                style="width: 50%; background: linear-gradient(90deg, #f7971e, #ffd200);" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
           </div>
         </div>
-        <div class="mb-4">
-          <div class="d-flex justify-content-between mb-2">
-            <span>Database Management</span>
-            <span>75%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="mb-4">
-          <div class="d-flex justify-content-between mb-2">
-            <span>DevOps & Deployment</span>
-            <span>50%</span>
-          </div>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-              aria-valuemax="100"></div>
+
+
+        <!-- Technologies Badges -->
+        <div class="mt-5">
+          <h4 class="section-title">Technologies</h4>
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <span class="badge-tech">Java</span>
+            <span class="badge-tech">Spring Boot</span>
+            <span class="badge-tech">MySQL</span>
+            <span class="badge-tech">PostgreSQL</span>
+            <span class="badge-tech">REST API</span>
+            <span class="badge-tech">Git</span>
+            <span class="badge-tech">Angular</span>
+            <span class="badge-tech">NestJS</span>
+            <span class="badge-tech">Laravel</span>
+            <span class="badge-tech">Hibernate</span>
+            <span class="badge-tech">Maven</span>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="section-divider"></div>
+
     <!-- Education & Experience Section -->
     <div class="row mt-5">
-      <div class="col-lg-6 mb-4">
-        <h3 class="h4 mb-4">Education</h3>
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Diploma of Information Technology</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Athang Academy</h6>
-            <p class="card-text">2022 - 2025</p>
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <h3 class="section-title">Education</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="card experience-card">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Diploma of Information Technology</h5>
+                <h6 class="card-subtitle mb-2 text-muted fw-semibold">Athang Academy</h6>
+                <p class="card-text text-primary">2022 - 2025</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card border-0 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Higher Secondary Education</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Chhukha Central School</h6>
-            <p class="card-text">2016 - 2021</p>
+          <div class="timeline-item">
+            <div class="card experience-card">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Higher Secondary Education</h5>
+                <h6 class="card-subtitle mb-2 text-muted fw-semibold">Chhukha Central School</h6>
+                <p class="card-text text-primary">2016 - 2021</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-6">
-        <h3 class="h4 mb-4">Work Experience</h3>
+      <div class="container">
+        <h3 class="section-title mb-5 text-center">Work Experience</h3>
 
-        <!-- Self-Trained Experience -->
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Software Developer</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Self Trained</h6>
-            <ul class="list-unstyled">
-              <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Developed and maintained web applications
-                using Angular, NestJS, Spring Boot and Laravel</li>
-              <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Collaborated with other developers on various
-                projects</li>
-              <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Participated in code reviews</li>
-            </ul>
-          </div>
-        </div>
+        <div class="timeline">
 
-        <!-- Internship Experience -->
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Backend Intern</h5>
-            <h6 class="card-subtitle mb-2 text-muted">NGN (Next Generation New Technology)</h6>
-            <p class="card-text">3-month internship focused on backend development for the Bhutan Food and Drug
-              Authority (BFDA) project.</p>
-            <ul class="list-unstyled">
-              <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Worked on backend services for BFDA’s digital
-                platform</li>
-              <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Contributed to REST API development and
-                database integration</li>
-              <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Gained experience with Spring Boot and
-                PostgreSQL</li>
-            </ul>
+          <!-- Experience Item Left -->
+          <div class="timeline-item left mb-5">
+            <div class="card experience-card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                  <div>
+                    <h5 class="card-title fw-bold">Backend Developer</h5>
+                    <h6 class="card-subtitle mb-2 text-muted fw-semibold">Employed since July 1st - Current</h6>
+                  </div>
+                  <span class="badge bg-primary">Current</span>
+                </div>
+                <p class="card-text">More than 6 months of professional software development experience.</p>
+                <p class="card-text fw-bold mt-3">RMA Mortgage Verification System – Current Project (LMS) Loan Mortgage
+                  System</p>
+                <p class="card-text">
+                  Working as a Backend Developer on the RLoan Mortgage System, designed to verify mortgage records based
+                  on vehicle numbers and plot numbers for different agencies.
+                </p>
+                <ul class="list-unstyled mb-3">
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Designed and optimized the
+                    database schema to efficiently handle large-scale mortgage records</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Developed RESTful APIs for
+                    mortgage checking and verification workflows</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Implemented secure and
+                    scalable backend architecture using Spring Boot and MySQL</li>
+                </ul>
+                <div class="mt-4">
+                  <h6 class="text-muted mb-2 fw-semibold">Technologies Used:</h6>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge-tech">Java</span>
+                    <span class="badge-tech">Spring Boot</span>
+                    <span class="badge-tech">MySQL</span>
+                    <span class="badge-tech">REST API</span>
+                    <span class="badge-tech">Git</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- Experience Item Right -->
+          <div class="timeline-item right mb-5">
+            <div class="card experience-card">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Backend Developer</h5>
+                <h6 class="card-subtitle mb-2 text-muted fw-semibold">Ongoing Project</h6>
+                <p class="card-text">Contributed to backend development of the Enterprise Resource Planning (ERP)
+                  System.</p>
+                <ul class="list-unstyled mb-3">
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Delivered major backend
+                    modules: Document Management, Employee Management, and Payroll Management</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Played an active role in
+                    database design, API development, and system workflow optimization</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Collaborated with
+                    cross-functional teams to ensure smooth backend-to-frontend integration</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Applied version control
+                    practices using Git and participated in sprint-based project delivery</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Implemented backend
+                    architecture using Spring Boot and MySQL</li>
+                </ul>
+                <div class="mt-4">
+                  <h6 class="text-muted mb-2 fw-semibold">Technologies Used:</h6>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge-tech">Java</span>
+                    <span class="badge-tech">Spring Boot</span>
+                    <span class="badge-tech">MySQL</span>
+                    <span class="badge-tech">Git</span>
+                    <span class="badge-tech">REST API</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Item Left (Internship) -->
+          <div class="timeline-item left mb-5">
+            <div class="card experience-card">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Backend Intern</h5>
+                <h6 class="card-subtitle mb-2 text-muted fw-semibold">NGN (Next Generation New Technology)</h6>
+                <p class="card-text">3-month internship focused on backend development for the Bhutan Food and Drug
+                  Authority (BFDA) digital platform.</p>
+                <ul class="list-unstyled mt-3 mb-0">
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Developed backend services
+                    for BFDA's digital platform</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Contributed to REST API
+                    design, implementation, and database integration</li>
+                  <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Gained hands-on experience
+                    with Spring Boot, PostgreSQL, and backend best practices</li>
+                </ul>
+                <div class="mt-4">
+                  <h6 class="text-muted mb-2 fw-semibold">Technologies:</h6>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge-tech">Spring Boot</span>
+                    <span class="badge-tech">PostgreSQL</span>
+                    <span class="badge-tech">REST API</span>
+                    <span class="badge-tech">Hibernate</span>
+                    <span class="badge-tech">Git</span>
+                    <span class="badge-tech">Maven</span>
+                  </div>
+                </div>
+                <span class="badge bg-light text-dark mt-3">Duration: 3 Months</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+    </div>
+    <div class="section-divider"></div>
 
-      <!-- Interests Section -->
-      <div class="row mt-5">
-        <div class="col-12">
-          <h3 class="h4 mb-4">Personal Interests</h3>
-          <div class="row g-4">
-            <div class="col-md-3">
-              <div class="card border-0 shadow-sm h-100">
-                <div class="card-body text-center">
-                  <i class="bi bi-book fs-1 text-primary mb-3"></i>
-                  <h5 class="card-title">Reading</h5>
-                  <p class="card-text">Technical blogs and self-improvement books</p>
-                </div>
-              </div>
+    <!-- Interests Section -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <h3 class="section-title">Personal Interests</h3>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card interest-card h-100">
+              <i class="bi bi-book interest-icon"></i>
+              <h5 class="card-title fw-bold">Reading</h5>
+              <p class="card-text">Technical blogs and self-improvement books</p>
             </div>
-            <div class="col-md-3">
-              <div class="card border-0 shadow-sm h-100">
-                <div class="card-body text-center">
-                  <i class="bi bi-code-square fs-1 text-primary mb-3"></i>
-                  <h5 class="card-title">Coding</h5>
-                  <p class="card-text">Building side projects and learning new technologies</p>
-                </div>
-              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card interest-card h-100">
+              <i class="bi bi-code-square interest-icon"></i>
+              <h5 class="card-title fw-bold">Coding</h5>
+              <p class="card-text">Building side projects and learning new technologies</p>
             </div>
-            <div class="col-md-3">
-              <div class="card border-0 shadow-sm h-100">
-                <div class="card-body text-center">
-                  <i class="bi bi-music-note-beamed fs-1 text-primary mb-3"></i>
-                  <h5 class="card-title">Music</h5>
-                  <p class="card-text">Listening to various genres</p>
-                </div>
-              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card interest-card h-100">
+              <i class="bi bi-music-note-beamed interest-icon"></i>
+              <h5 class="card-title fw-bold">Music</h5>
+              <p class="card-text">Listening to various genres</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
 </section>
